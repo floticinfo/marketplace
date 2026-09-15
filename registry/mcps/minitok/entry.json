@@ -6,7 +6,7 @@
   "tagline": "Verified repository-aware coding workflows for MCP clients",
   "description": "minitok exposes repository-aware coding workflow controls to MCP clients. It separates research, planning, implementation, deterministic verification, review, repair, and evidence recording. Local stdio execution is read-only by default; repository-changing scopes require explicit configuration and approval. An active minitok entitlement and configured provider credentials are required for production workflow methods.",
   "author": {
-    "name": "Flotic",
+    "name": "Flotic LC.",
     "url": "https://minitok.dev"
   },
   "homepage": "https://minitok.dev/docs",
