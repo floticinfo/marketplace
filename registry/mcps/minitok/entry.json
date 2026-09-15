@@ -25,7 +25,7 @@
       "--",
       "npx",
       "-y",
-      "@flotic/minitok@1.4.5",
+      "@flotic/minitok@1.4.6",
       "mcp",
       "serve"
     ],
@@ -46,6 +46,6 @@
         "description": "Optional HTTPS minitok service URL override; defaults to https://api.minitok.dev."
       }
     ],
-    "notes": "Install @flotic/minitok@1.4.5, run minitok doctor, authenticate the user, and run minitok mcp connect cline --scopes read. Repository-changing scopes require explicit write and verify_exec configuration."
+    "notes": "For first-time setup, install @flotic/minitok@1.4.6 and run minitok mcp setup cline --scopes read. The guided setup opens account sign-in, explains paid-plan activation, refreshes the runtime token, and writes the Cline configuration. Repository-changing scopes require explicit write and verify_exec configuration."
   }
 }
